@@ -1,0 +1,10 @@
+# 这行是注释
+
+# 忽略所有 .a 伟扩展名的文件
+*.class 
+
+# 忽略所有的 build/ 目录下文件
+target/ 
+
+# 忽略如 doc/notes.txt, 但是不忽略如 doc/server/arch.txt
+doc/*.txt 
